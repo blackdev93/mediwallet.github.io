@@ -1,0 +1,13 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 13 Nov 2021 14:52:06 at https://pub1.pskt.io/c/mzzbjq +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -WC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://pub1.pskt.io/c/mzzbjq -O1 "C:\My Web Sites\MediWallet" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:52:22	Error: 	"Not Found" (404) at link https://pub1.pskt.io/assets/internationalTelephoneInput/build/img/flags.png (from https://pub1.pskt.io/css/f907c76a.css)
+14:52:22	Error: 	"Not Found" (404) at link https://pub1.pskt.io/assets/internationalTelephoneInput/build/img/flags@2x.png (from https://pub1.pskt.io/css/f907c76a.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 17 seconds : 20 links scanned, 17 files written (881383 bytes overall) [553049 bytes received at 32532 bytes/sec], 717048 bytes transferred using HTTP compression in 17 files, ratio 51%, 2.0 requests per connection
+(2 errors, 0 warnings, 0 messages)

@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.iti__flag {background-image: url("flags.png");}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .iti__flag {background-image: url("flags%402x.png");}
+}
+
+.enrol-page {
+    font-family: "Roboto", sans-serif;
+    font-weight:300;
+    max-width: 450px;
+    padding: 0;
+}
+
+.password-page {
+    font-family: "Roboto", sans-serif;
+    max-width: 350px;
+    padding: 0;
+}
+
+form > .form-group,
+form > div {
+    max-width: 100%;
+    margin: 14px auto;
+}
+
+.title-and-form {
+    padding: 10px 5px 5px 5px;
+}
+.hide {
+    display: none;
+}
+
+.file-upload {
+    border: 1px dashed #ced4da;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+.container-form {
+    padding: 0;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.checkbox-label {
+    text-indent: -20px;
+}
+.checkbox-input-box {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+
+a,
+a:focus,
+a:hover {
+    color: #181818;
+    text-decoration: none;
+}
+
+.footer {
+    font-size: 10px;
+    color: rgba(24, 24, 24, .5);
+    text-align: center;
+}
+
+#password-form {
+    padding:0 15px 15px 15px;
+}
+
+#submit-btn {
+    text-transform: uppercase;
+    outline: 0;
+    width: 100%;
+    color: #fff;
+    padding: 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#error-text {
+    text-align: center;
+    color: #E2231A;
+}
+
+#logout-form {
+    display: flex;
+}
+
+#logo-img {
+    max-height: 100px;
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 992px) {
+    .enrol-page {
+        max-width: 680px;
+        min-width: 360px;
+        padding: 4% 0 2% 0;
+        margin: auto;
+    }
+    .password-page {
+        padding: 4% 0 0 0;
+        margin: auto;
+    }
+    .enrol-form {
+        position: relative;
+        z-index: 1;
+        background: #FFFFFF;
+        max-width: 100%;
+        margin: 0;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    }
+    .title-and-form {
+        padding: 10px 45px 10px 45px;
+    }
+}

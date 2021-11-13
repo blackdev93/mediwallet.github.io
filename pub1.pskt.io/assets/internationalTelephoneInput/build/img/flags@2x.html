@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bad Request</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,700" rel="stylesheet">
+
+    
+    <style>
+        * {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        #message {
+            position: relative;
+            height: 100vh;
+        }
+        #message .message {
+            position: absolute;
+            left: 50%;
+            top: 40%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+        .message {
+            max-width: 600px;
+            width: 100%;
+            line-height: 1.4;
+            text-align: center;
+        }
+        .message .message-error {
+            position: relative;
+            height: 300px;
+            margin: 0px auto 20px;
+            z-index: -1;
+        }
+        .message .message-error h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 236px;
+            font-weight: 200;
+            margin: 0px;
+            color: #211b19;
+            text-transform: uppercase;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+        .message .message-error h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 28px;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: #211b19;
+            background: #fff;
+            padding: 10px 5px;
+            margin: auto;
+            display: inline-block;
+            position: absolute;
+            bottom: 0px;
+            left: 0;
+            right: 0;
+        }
+        .message a {
+            font-family: 'Montserrat', sans-serif;
+            display: inline-block;
+            font-weight: 700;
+            text-decoration: none;
+            color: #fff;
+            text-transform: uppercase;
+            padding: 13px 23px;
+            background: #40c4ff;
+            font-size: 18px;
+            -webkit-transition: 0.2s all;
+            transition: 0.2s all;
+        }
+        .message a:hover {
+            background: #61697A;
+        }
+        .message p {
+          font-family: 'Courier New';
+          color: #222;
+          font-size: 16px;
+          text-align: left;
+          margin-top: 40px;
+          padding: 5px 20px;
+        }
+        .message span {
+          color: #F00;
+          font-weight: 800;
+        }
+        @media only screen and (max-width: 767px) {
+            .message .message-error {
+                height: 230px;
+                margin: 0px auto 10px;
+            }
+            .message .message-error h1 {
+                font-size: 148px;
+            }
+            .message .message-error h2 {
+                font-size: 26px;
+            }
+        }
+        @media only screen and (max-width: 480px) {
+            .message {
+                max-width: 510px;
+            }
+            .message .message-error {
+                height: 148px;
+                margin: 0px auto 10px;
+            }
+            .message .message-error h1 {
+                font-size: 76px;
+            }
+            .message .message-error h2 {
+                font-size: 16px;
+            }
+            .message .message-error a {
+                padding: 7px 15px;
+                font-size: 14px;
+            }
+        }
+        @media only screen and (max-width: 284px) {
+			.message .message-error {
+				height: 188px;
+			}
+		}
+    </style>
+    
+</head>
+<body>
+<div id="message">
+    <div class="message">
+        <div class="message-error">
+            <h1>Oops!</h1>
+            <h2>not a valid pass id</h2>
+        </div>
+        
+        
+    </div>
+</div>
+</body>
+
+</html>
